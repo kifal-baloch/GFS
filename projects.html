@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="navbar-line"></div>
+    <div class="navbar">
+        <div class="menu">
+            <div class="logo"><a href="index.html"><img src="images/download.png" alt=""></a></div>
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="service.html">
+                    <li>Services</li>
+                </a>
+                <a href="projects.html">
+                    <li>Projects</li>
+                </a>
+                <a href="commersial.html">
+                    <li>Commersial</li>
+                </a>
+                <!-- <a href="thankyou.html">
+                    <li>About Us</li>
+                </a> -->
+                <a href="contact.html">
+                    <li>Contact Us</li>
+                </a>
+                <button class="Login" id="loginButton">Login</button>
+            </ul>
+        </div>
+    </div>
+    <div class="floating-form" id="uniqueFloatingForm">
+        <div class="close-btn" id="closeBtn">&times;</div>
+        <h2>Get in Touch With Us!</h2>
+        <form id="loginForm-2" action="thankyou.html">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required class="inp">
+            </div>
+    
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required class="inp">
+            </div>
+            <button type="submit" class="log-btn">Login</button>
+        </form>
+    
+        <div class="extra-options">
+            <a href="#">Forgot Password?</a>
+            <p>Don't have an account? <a href="#">Sign Up</a></p>
+        </div>
+    </div>
+    <div class="page-location">
+        <h1>Our Projects</h1><br>
+        <div class="h-line"></div>
+        <div class="page-l">
+            <a href="index.html">Home</a>/ <span><a href="projects.html">Projects</a></span>
+        </div>
+    </div>
+    <!-- category section -->
+
+    <div class="category-main">
+        <div class="category">
+            <div onclick="filterCards('all')">All Categories</div>
+        </div>
+        <div class="line"></div>
+        <div class="category">
+            <div onclick="filterCards('Plots')">Plots</div>
+        </div>
+        <div class="line"></div>
+        <div class="category">
+            <div onclick="filterCards('Villas')">Villas</div>
+        </div>
+        <div class="line"></div>
+        <div class="category">
+            <div onclick="filterCards('Apartment')">Apartment</div>
+        </div>
+        <div class="line"></div>
+        <div class="category">
+            <div onclick="filterCards('Industrial')">Industrial</div>
+        </div>
+        <div class="line"></div>
+        <div class="category">
+            <div onclick="filterCards('Shops')">Shops</div>
+        </div>
+        <div class="line"></div>
+        <div class="category">
+            <div onclick="filterCards('Farm House')">Farm House</div>
+        </div>
+        <div class="line"></div>
+        <div class="category">
+            <div onclick="filterCards('Featured')">Featured</div>
+        </div>
+        <div class="line"></div>
+        <div class="category">
+            <div onclick="filterCards('Upcoming')">Upcoming</div>
+        </div>
+        <div class="line"></div>
+        <div class="category">
+            <div onclick="filterCards('Under Construction')">Under Construction</div>
+        </div>
+        <div class="line"></div>
+        <div class="category">
+            <div onclick="filterCards('Completed')">Completed</div>
+        </div>
+    </div>
+
+    <!-- cards start from here -->
+    <div class="p-container">
+        <div class="p-card">
+            <img src="images/project-1.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>North Town Residency – Phase 1</h2>
+                <p>North Town Residency: Experience Luxury Living in Surjani Town. North Town Residency presents a
+                    unique Completed concept of a city within a</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-2.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>North Town Residency – Phase 2</h2>
+                <p>The magnificence private task is situated in Karachi. North Town Residency Phase 2 influence is to
+                    give extravagance and a tranquil…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-3.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>North Town Villas – Phase 3</h2>
+                <p>North Town Villas – philosophy is to give extravagance and a serene way of life inside got gated
+                    limits. A task…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-4.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>North Town Residency – Phase 4</h2>
+                <p>North Town Residency has the chief abroad block planned particularly for abroad Pakistanis. It has
+                    front plots of 80 sq. yards…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-4.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>Bolan Platinum</h2>
+                <p>BOLAN PLATINUM at North Town Residency Phase 4 is allowing you to invest for your better future. The
+                    project consists of…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-5.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>North Town COMM</h2>
+                <p>North Town – COMM is situated in the ideal place for the North Town Residency Phase 1 Completed limit wall. We
+                    are…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-6.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>Malir Town Residency – Phase 1</h2>
+                <p>Malir Town Residency – Phase 1 is encircled with Malir cantonment region, found close by Karachi
+                    Airport and Malir Cantt. The…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-7.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>Malir Town Residency – Phase 2</h2>
+                <p>Malir Town Residency – Phase 2 is surrounded by the Malir cantonment area, located nearby Karachi
+                    Airport and Malir Cantt. The…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-8.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>Malir Town Residency – Phase 3</h2>
+                <p>Malir Town Residency: Your Gateway to Tranquil Living Situated in the vicinity of Malir Cantonment
+                    and in close proximity to Karachi Airport,…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-9.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>Malir Town Residency – Phase 4</h2>
+                <p>Malir Town Residency: Your Gateway to Tranquil Living Situated in the vicinity of Malir Cantonment
+                    and in close proximity to Karachi Airport,…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-23.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>Malir Town Residency – Phase 5</h2>
+                <p>Malir Town Residency: Your Gateway to Tranquil Living Situated in the vicinity of Malir Cantonment
+                    and in close proximity to Karachi Airport,…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-24.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>Malir Town Residency – Phase 6</h2>
+                <p>Malir Town Residency: Your Gateway to Tranquil Living Situated in the vicinity of Malir Cantonment
+                    and in close proximity to Karachi Airport,…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-12.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>Malir Town Residency – Phase 7</h2>
+                <p>Malir Town Residency: Your Gateway to Tranquil Living Situated in the vicinity of Malir Cantonment
+                    and in close featured proximity to Karachi Airport,…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-13.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>Malir Green Valley Farm House</h2>
+                <p>Malir Town Residency: Your Gateway to Tranquil Living Situated in the vicinity of Malir Cantonment
+                    and in close proximity to Karachi Airport,…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-14.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>NTR Industrial Zone – Phase 1</h2>
+                <p>Malir Town Residency: Your Gateway to Tranquil Living Situated in the vicinity of Malir Cantonment
+                    and in close proximity to Karachi Airport,…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-15.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>NTR Industrial Zone – Phase 2</h2>
+                <p>Malir Town Residency: Your Gateway to Tranquil Living Situated in the vicinity of Malir Cantonment
+                    and in close proximity to Karachi Airport,…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-16.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>7 Wonders City – Phase 1</h2>
+                <p>Malir Town Residency: Your Gateway to Tranquil Living Situated in the vicinity of Malir Cantonment
+                    and in close proximity to Karachi Airport,…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-17.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>7 Wonders City – Phase 2 </h2>
+                <p>Malir Town Residency: Your Gateway to featured Tranquil Living Situated in the vicinity of Malir
+                    Cantonment
+                    and in close proximity to Karachi Airport,…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-18.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>7 Wonders Enclave</h2>
+                <p>Malir Town Residency: Your Gateway to Tranquil Living Situated in the vicinity of Malir Cantonment
+                    and in close proximity to Karachi Airport,…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-19.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>7 Wonders City Farmhouse</h2>
+                <p>Malir Town Residency: Your Gateway to Tranquil Living Situated in the vicinity of Malir Cantonment
+                    and in close proximity to Karachi Airport,…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-20.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>7 Wonders City Multan</h2>
+                <p>Malir Town Residency: Your Gateway to Tranquil Living Situated in the vicinity of Malir Cantonment
+                    and in close proximity to Karachi Airport,…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-21.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>7 Wonders City Islamabad</h2>
+                <p>Malir Town Residency: Your Gateway to Tranquil Living Situated in the vicinity of Malir Cantonment
+                    and in close proximity to Karachi Airport,…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-22.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>7 Wonders City – Phase 2</h2>
+                <p>7 Wonders City – Phase 2 is a topic-based project villasin which we are offering every one of the
+                    Seven Wonders…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="p-card">
+            <img src="images/project-23.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>GFS Villas DHA CITY</h2>
+                <p>Malir Town Residency: Your Gateway to Tranquil Living Situated in the vicinity of Malir Cantonment
+                    featured and in close proximity to Karachi Airport,…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-24.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>Malir Town Residency – Phase 3</h2>
+                <p>Malir Town Residency: Your Gateway to Tranquil Living Situated in the vicinity of Malir Cantonment
+                    and in close proximity to Karachi Airport,…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-25.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>Malir Town Residency – Phase 3</h2>
+                <p>Malir Town Residency: Your Gateway to Tranquil Living Situated in the vicinity of Malir Cantonment
+                    and in close proximity to Karachi Airport,…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-26.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>Malir Town Residency – Phase 3</h2>
+                <p>Malir Town Residency: Your Gateway to Tranquil Living Situated in the vicinity of Malir Cantonment
+                    and in close proximity to Karachi Airport,…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-27.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>Malir Town Residency – Phase 3</h2>
+                <p>Malir Town Residency: Your Gateway to Tranquil Living Situated in the vicinity of Malir Cantonment
+                    and in close proximity to Karachi Airport,…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-28.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>Malir Town Residency – Phase 3</h2>
+                <p>Malir Town Residency: Your Gateway to Tranquil Living Situated in the vicinity of Malir Cantonment
+                    and in close proximity to Karachi Airport,…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-29.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>Malir Luxuria 2</h2>
+                <p>Malir Luxuria – 2 is one of the best structures situated in Malir. This undertaking comprises of
+                    ground in addition plots to…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-30.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>Malir Luxuria 1</h2>
+                <p>Malir Luxuria – 1 is one of the best structures situated in Malir. This undertaking comprises ground
+                    in addition to plots 6…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/mega-tower.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>GFS Mega Tower</h2>
+                <p>GFS Mega Tower is a gotten gated local area project apartment that has a condition-of-workmanship
+                    foundation and contains every one of the…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-31.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>Sarafa Bazaar</h2>
+                <p>GFS presents MRR Square where you can book your 2, 3, and 4-room apartments for a monthly payment of
+                    just 15,000….</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-32.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>Roshan Tower</h2>
+                <p>Roshan Tower is a secured gated community project that apartments has the state-of-art infrastructure
+                    and contains all the modern world amenities that…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-33.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>Mega Sarafa Bazar</h2>
+                <p>Mega Sarafa Bazaar is a shops brand-new, brilliant project introduced by GFS Builders & Developers in
+                    their
+                    dazzling project Mega Twin Tower…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-34.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>GFS Mega Twin Tower</h2>
+                <p>Mega Twin Tower: Redefining Luxury Living in a Gated Community Mega Twin Tower shops stands tall as a
+                    testament to elegance, sophistication, and…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-35 .webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>GFS Shopping Arena</h2>
+                <p>Shopping Arena: A Lucrative Investment Opportunity in the Heart of Karachi Are you looking for a
+                    shops in prime investment opportunity in Karachi? Look…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-36.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>GFS Cattle City & Farmhouses</h2>
+                <p>GFS Cattle City and Farm Houses is an innovative investment opportunity that caters to the needs of
+                    the cattle trading industry…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-37.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>7 Wonders City Farmhouses</h2>
+                <p>7 Wonders City Farm house: Your Serene Retreat Are you searching for the perfect farmhouse getaway
+                    where you and your loved ones can…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-38.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>DHA Bahawalpur</h2>
+                <p> GFS introduces in DHA Bahawalpur, a premium residential upcoming project on Yazman Road near
+                    Bahawalpur Airport consisting of 8 and 10…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-39.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>GFS Jodia Bazaar</h2>
+                <p>GFS Jodia Bazaar Introducing Jodia Bazaar North Town Residency 1, an exciting commercial project by
+                    GFS Builders and Developers, Under Construction strategically located near…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-40.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>GFS Saddar Bazaar</h2>
+                <p>GFS Saddar Bazaar GFS Builders and Developers proudly Under Construction present GFS Sadar Bazar, an exciting commercial
+                    project located in the vibrant city of…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-card">
+            <img src="images/project-41.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>MRR Square Roshan Bazaar</h2>
+                <p>MRR Square Roshan Bazaar Introducing the exquisite MRR Under Construction Square by GFS Builders & Developers, presenting an irresistible offer at Roshan Bazar. Discover…</p>
+                <div class="card-buttons">
+                    <button>Button 1</button>
+                    <button class="button-2">Button 2</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="contact">
+        <div class="form">
+            <h1>Get in Touch With Us!</h1>
+            <h5>Fill out the form below & we will get back to you as soon as possible.</h5>
+            <form action="index.html">
+                <input type="text" placeholder="Enter Your Name" required>
+                <input type="email" placeholder="Enter Your Email" required>
+                <!-- <input type="tel" placeholder="Enter Your Mobile No." pattern="[0-9]{3}"> -->
+                <input type="tel" id="phone" name="phone" placeholder="Enter Your Phone No."
+                    pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" required>
+                <input type="text" placeholder="Enter Your City Name" required>
+                <input type="text" placeholder="Your Message" required><br>
+                <select>
+                    <option value="Facebook">Facebook</option>
+                    <option value="Website">Website</option>
+                </select><br>
+                <select>
+                    <option value="">Facebook</option>
+                    <option value="">Website</option>
+                </select><br>
+                <div class="submit">
+                    <input type="submit" class="btn">
+                </div>
+            </form>
+        </div>
+        <div class="detail">
+            <h5>OUR CONTACT DETAILS</h5>
+            <h1>How Can We Help You?</h1>
+            <p>You can contact us anytime through calls or messages. You can also visit our offices easily anytime. We
+                deliver our best professional possibilities to reply to all questions within one day during the working
+                days. We are here to help and answer all your valuable questions</p>
+            <h3>_________________________________________________</h3>
+            <h2>Head Office</h2>
+            <h4>Plot # FL-27, Al-Basit Tower, Gulshan-e-Jamal, Faisal Cantt, Opposite Askari – IV, Karachi, Sindh,
+                Pakistan</h4>
+            <div class="icons">
+                <div class="phone">
+                    <a href="tel:+03079329667"><i class="fa-solid fa-phone fa-3x"></i></a>
+                    <h1>Toll Free</h1>
+                    <h3>0800 43700</h3>
+                </div>
+                <div class="gmail">
+                    <a href="mailto:gfsbuilders.com.pk"><i class="fa-solid fa-envelope fa-3x"></i></a>
+                    <h1>Email</h1>
+                    <h3>info@gfsbuilders.com.pk</h3>
+                </div>
+                <div class="whatsapp">
+                    <a href="https://wa.me/qr/SDHBJA67KNYXG1"><i class="fa-brands fa-whatsapp fa-3x"></i></a>
+                    <h1>Whatsapp</h1>
+                    <h3>+92(0)302 8255578</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="icon-2">
+            <a href="https://www.youtube.com/c/GFSBuildersandDevelopers"><i class="fa-brands fa-youtube fa-2x"></i></a>
+            <a href="https://www.facebook.com/BuildersGFS/"><i class="fa-brands fa-facebook fa-2x"></i></a>
+            <a href="https://www.instagram.com/gfsbuilders/"><i class="fa-brands fa-instagram fa-2x"></i></a>
+            <a href="https://twitter.com/builders_gfs?lang=en"><i class="fa-brands fa-twitter fa-2x"></i></a>
+            <a href="https://pk.linkedin.com/company/gfs-builders-developers"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+        </div>
+        <div class="copyright">
+            <p>Copyrights © 2023 GFS Builders & Developers All Right Reserved | Privacy Policies | Developed By DG
+                Concepts</p>
+        </div>
+    </div>
+    <a href="#" class="gotopbtn"><i class="fa-solid fa-arrow-up"></i></a>
+</body>
+
+</html>

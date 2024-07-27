@@ -1,0 +1,1207 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Inter:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    text-decoration: none;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fff;
+    font-family: "Inter", sans-serif;
+}
+
+.logo img {
+    height: 65px;
+    width: 120px;
+    margin-top: 5px;
+}
+
+.logo-a {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.navbar-line {
+    height: 7px;
+    width: 400px;
+    background-color: #e9212e;
+    margin-left: 42%;
+}
+
+.navbar {
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    /* position: sticky;
+    top: 0; */
+    margin-top: 10px;
+}
+
+.navbar .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.navbar a li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    color: black;
+    text-align: justify;
+    font-family: urbanist, Sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.Login {
+    /* background-color: #e9212e;
+    border: transparent;
+    height: 40px;
+    width: 90px;
+    font-family: urbanist, Sans-serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700; */
+    background-color: #e9212e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.navbar a li:hover {
+    color: #e9212e;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+video {
+    width: 200%;
+    filter: brightness(40px);
+}
+
+.text-over-video {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+span {
+    color: #e9212e;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    line-height: 30px;
+    font-size: 19px;
+}
+
+.intro p {
+    margin-top: 20px;
+    @import url('https://fonts.googleapis.com/css2?family=Anta&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,500;1,500&family=Playfair+Display:ital,wght@0,500;1,500&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+}
+
+.ceo img {
+    filter: drop-shadow(0 0 0.75rem black);
+    /* position: fixed; */
+    height: 700px;
+}
+
+.para-2 {
+    margin-top: 50px;
+}
+
+.intro span {
+    color: #e9212e;
+}
+
+.projects {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.projects h1 {
+    color: #e9212e;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.projects-img {
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    margin-top: 100px;
+}
+
+.projects H5 {
+    font-size: 20px;
+}
+
+.services-card img {
+    height: 60px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.services-card h3 {
+    margin-left: 5px;
+}
+
+.services-card p {
+    font-size: small;
+    margin-left: 5px;
+}
+
+.services-card button {
+    background-color: black;
+    border: transparent;
+    height: 40px;
+    width: 120px;
+    font-family: urbanist, Sans-serif;
+    font-size: 15px;
+    color: #fff;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.t3-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.card-1 {
+    width: 300px;
+    height: 200px;
+
+}
+
+.card-2 {
+    width: 300px;
+    height: 200px;
+}
+
+.card-3 {
+    width: 300px;
+    height: 200px;
+}
+
+.card-4 {
+    width: 300px;
+    height: 200px;
+}
+
+.card-5 {
+    width: 300px;
+    height: 200px;
+}
+
+.card-6 {
+    width: 300px;
+    height: 200px;
+}
+
+.card-1:hover {
+    background-color: #e9212e;
+    color: #fff;
+}
+
+.card-2:hover {
+    background-color: #e9212e;
+    color: #fff;
+}
+
+.card-3:hover {
+    background-color: #e9212e;
+    color: #fff;
+}
+
+.card-4:hover {
+    background-color: #e9212e;
+    color: #fff;
+}
+
+.card-5:hover {
+    background-color: #e9212e;
+    color: #fff;
+}
+
+.card-6:hover {
+    background-color: #e9212e;
+    color: #fff;
+}
+
+.project-partner {
+    height: 70px;
+    width: 100%;
+    background-color: gray;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.project-partner img {
+    height: 60px;
+    filter: grayscale(100%);
+    margin: 0 30px 0 30px;
+}
+
+.project-partner img:hover {
+    filter: none;
+}
+
+.project-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-project-gallery {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.about-project-gallery h1 {
+    color: #e9212e;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.about-project-gallery h5 {
+    font-size: 20px;
+}
+
+.project-gallery img {
+    width: 300px;
+}
+
+.project-gallery {
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    margin-top: 100px;
+}
+
+.about-options {
+    height: 80px;
+    width: 100%;
+    margin-top: 100px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-options h1 {
+    color: #e9212e;
+}
+
+.letsTalk {
+    background-color: #e9212e;
+    border: transparent;
+    height: 40px;
+    width: 120px;
+    font-family: urbanist, Sans-serif;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.GetInTouch {
+    background-color: white;
+    border: transparent;
+    height: 40px;
+    width: 120px;
+    font-family: urbanist, Sans-serif;
+    font-size: 15px;
+    color: #e9212e;
+    cursor: pointer;
+}
+
+.our-team {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.our-team h1 {
+    color: #e9212e;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.our-team h5 {
+    font-size: 20px;
+}
+
+.team-images {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 300px;
+}
+
+.mansoor {
+    text-align: center;
+    background-color: #e9212e;
+    height: 250px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.mansoor img {
+    height: 400px;
+}
+
+.mohsin {
+    text-align: center;
+    background-color: #e9212e;
+    height: 250px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.mohsin img {
+    height: 400px;
+}
+
+.irfan {
+    text-align: center;
+    background-color: #e9212e;
+    height: 250px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.irfan img {
+    height: 400px;
+}
+
+.contact {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    background-color: #2d2d2d;
+    width: 100%;
+    height: 600px;
+}
+
+.form {
+    width: 50%;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+    margin-top: 30px;
+}
+
+.form h1 {
+    color: #e9212e;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.form h5 {
+    font-size: 15px;
+    color: #fff;
+}
+
+input {
+    width: 595px;
+    height: 40px;
+    border-radius: 5px;
+    /* background-color: #adaaaa; */
+    border: none;
+}
+
+select {
+    width: 600px;
+    height: 40px;
+    border-radius: 5px;
+    /* background-color: #adaaaa; */
+    border: none;
+}
+
+.submit .btn {
+    background-color: #e9212e;
+    font-weight: 700;
+    color: #fff;
+    width: 80px;
+}
+
+.detail {
+    text-align: center;
+    background-color: #fff;
+    height: 550px;
+    width: 800px;
+    margin-right: 150px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.detail h1 {
+    color: #e9212e;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.detail h5 {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.detail .horizontal-line {
+    margin-top: 20px;
+    width: 300px;
+    height: 1px;
+    background-color: black;
+    margin-left: 200px;
+}
+
+.detail h1,
+h2,
+p,
+h4 {
+    /* margin-top: 30px; */
+    margin: 30px 30px 0px 30px;
+}
+
+.icons {
+    margin-top: 30px;
+    /* width: 70px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.icons i {
+    color: #e9212e;
+}
+
+/* .phone{
+    line-height: 0px;
+} */
+.phone h1 {
+    font-size: 15px;
+}
+
+.phone h4 {
+    font-size: 15px;
+    margin-top: -0px;
+}
+
+.gmail h1 {
+    font-size: 15px;
+}
+
+.gmail h4 {
+    font-size: 15px;
+    margin-top: -0px;
+}
+
+.whatsapp h1 {
+    font-size: 15px;
+}
+
+.whatsapp h4 {
+    font-size: 15px;
+    margin-top: -0px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+    background-color: #fff;
+}
+
+.copyright {
+    margin-bottom: 30px;
+}
+
+.icon-2 a i {
+    color: #2d2d2d;
+}
+
+.icon-2 a i:hover {
+    color: #e9212e;
+}
+
+.gotopbtn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: #e9212e;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 22px;
+}
+
+
+/* SERVICES PAGE START FROM HERE */
+
+
+.page-location {
+    margin-top: 50px;
+    background-image: url("images/h-bg.jpg");
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-location h1 {
+    color: black;
+    font-family: "dm serif display", Sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+.h-line {
+    width: 80px;
+    height: 5px;
+    background-color: #e9212e;
+}
+
+.page-l {
+    margin-top: 20px;
+
+}
+
+.page-l a {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.page-l span a {
+    color: #e9212e;
+}
+
+.service-p {
+    margin-top: 100px;
+    text-align: center;
+    background-color: #fff;
+    /* height: 550px; */
+    /* width: 800px; */
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.service-p h1 span {
+    color: #e9212e;
+}
+
+.service-p h5 {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.service-p h1 {
+    color: black;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    font-style: normal;
+}
+
+.services-card2 img {
+    height: 60px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.services-card2 h3 {
+    margin-left: 5px;
+}
+
+.services-card2 p {
+    font-size: small;
+    margin-left: 5px;
+}
+
+.t3-card2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.card2-1 {
+    width: 300px;
+    height: 200px;
+
+}
+
+.card2-2 {
+    width: 300px;
+    height: 230px;
+}
+
+.card2-3 {
+    width: 300px;
+    height: 230px;
+}
+
+.card2-4 {
+    width: 300px;
+    height: 230px;
+}
+
+.card2-5 {
+    width: 300px;
+    height: 230px;
+}
+
+.card2-6 {
+    width: 300px;
+    height: 230px;
+}
+
+.card2-1:hover {
+    background-color: #e9212e;
+    color: #fff;
+}
+
+.card2-2:hover {
+    background-color: #e9212e;
+    color: #fff;
+}
+
+.card2-3:hover {
+    background-color: #e9212e;
+    color: #fff;
+}
+
+.card2-4:hover {
+    background-color: #e9212e;
+    color: #fff;
+}
+
+.card2-5:hover {
+    background-color: #e9212e;
+    color: #fff;
+}
+
+.card2-6:hover {
+    background-color: #e9212e;
+    color: #fff;
+}
+
+.testimonial {
+    margin-top: 100px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.testimonial-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.testimonial-card1 {
+    width: 300px;
+    height: 200px;
+    /* background-color: #e; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: right; */
+}
+
+.testimonial-card1 i {
+    font-size: 70px;
+}
+
+.person-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.name h1 {
+    font-size: 20px;
+}
+
+.testimonial-card2 {
+    width: 300px;
+    height: 200px;
+    /* background-color: #e9212e; */
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-card2 i {
+    font-size: 70px;
+}
+
+.testimonial-card2:hover {
+    background-color: #e9212e;
+    color: #fff;
+}
+
+.testimonial-card1:hover {
+    background-color: #e9212e;
+    color: #fff;
+}
+
+
+
+.p-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+    font-family: 'Arial', sans-serif;
+    margin-top: 100px;
+    margin-left: 200px;
+    padding: 0;
+    /* margin-bottom: 100px; */
+    width: 1200px;
+    /* background-color: #f4f4f4; */
+}
+
+.p-card{
+    width: 350px;
+    /* height: 450px; */
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.p-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ddd;
+}
+
+.card-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-content h2 {
+    margin-top: 0;
+    color: #333;
+    font-size: 15px;
+}
+
+.card-content p {
+    color: #555;
+    font-size: 13px;
+}
+
+.card-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.card-buttons button {
+    padding: 10px 15px;
+    border: none;
+    /* border-radius: 4px; */
+    cursor: pointer;
+    background-color: #e9212e;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.card-buttons .button-2 {
+    background-color: black;
+    /* color: black; */
+}
+
+.p-card:hover {
+    transform: scale(1.05);
+    background-color: #e9212e;
+    color: #fff;
+}
+
+.p-card:hover .card-content h2 {
+    color: #fff;
+}
+
+.p-card:hover .card-content p {
+    color: #fff;
+}
+
+.p-card:hover .card-buttons button {
+    background-color: #fff;
+    color: black;
+
+}
+
+.category-main {
+    text-align: center;
+    margin-top: 30px;
+    line-height: 30px;
+    color: black;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    width: 650px;
+    margin-top: 100px;
+    margin-left: 500px;
+    align-items: center;
+}
+
+.category {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.line {
+    height: 20px;
+    width: 2px;
+    background-color: black;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: grayscale(70%) blur(5px);
+    height: 100vh;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    /* Text color */
+    line-height: 5px;
+}
+
+.text-overlay h1 {
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+
+
+.num-contact {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+.number h1 {
+    color: #e9212e;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.w-number h1 {
+    color: #e9212e;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.number h5 {
+    font-size: 15px;
+}
+
+.w-number h5 {
+    font-size: 15px;
+}
+
+.address {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 700px;
+    margin-left: 450px;
+}
+
+.address h5 {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.site-heading {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.site-heading h1 {
+    color: #e9212e;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.site-cards {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 950px;
+    margin-left: 350px;
+    /* background-color: #e9212e; */
+    text-align: center;
+}
+
+.s-card {
+    width: 300px;
+    height: 200px;
+    /* background-color: #333; */
+}
+
+.s-card h1 {
+    font-size: 20px;
+}
+
+.s-button a {
+    color: black;
+    font-weight: 700;
+}
+
+.s-card:hover {
+    background-color: #e9212e;
+}
+
+.s-button {
+    margin-top: 10%;
+}
+
+
+.commersial-cards {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 1500px;
+    margin-left: 50px;
+    text-align: center;
+    gap: 50px;
+}
+
+.yt-card {
+    border: 2px solid black;
+    margin: 0;
+}
+
+.video-card {
+    position: relative;
+    display: block;
+    width: 300px;
+    margin: 20px;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.video-card img {
+    width: 100%;
+    height: auto;
+}
+
+.overlay img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+.blur-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 999;
+    display: none;
+}
+
+/* Card styles */
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+  
+  .overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+  .floating-form {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #b1aaaa;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 2;
+    width: 500px;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  h2 {
+    color: #e9212e;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    /* border: 2px solid #e9212e; */
+    /* height: 50px; */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .inp {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #e9212e;
+    border-radius: 4px;
+  }
+  
+  .log-btn{
+    background-color: #e9212e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .extra-options {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .extra-options a {
+    color: #e9212e;
+    text-decoration: none;
+  }
+  
+  .extra-options a:hover {
+    text-decoration: underline;
+  }
+  
+  .extra-options p {
+    margin-top: 10px;
+    color: #555;
+  }
